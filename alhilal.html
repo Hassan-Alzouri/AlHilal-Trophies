@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+            }
+            .heder{
+                width: 100%;
+                height: 350px;
+                overflow: hidden;
+                position: relative;
+                border-bottom: 10px solid #0008ffc9;
+            }
+            #heder-img{
+                width: 100%;
+                position: relative;
+            }
+            #cover{
+                background-color: black;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                bottom: 0;
+                opacity: 0.5;
+            }
+            #menu-header{
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                top: 0;
+            }
+            #menu{
+               margin-left: 10px; 
+               margin-top: 20px;
+            }
+            #menu > .btn{
+                margin-left: 30px;
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 10px;
+                transition: background 0.3s;
+            }
+            #menu > .btn:hover{
+               background-color: rgba(88,88,88,0.5);
+            }
+            .active{
+                background-color: #0008ffc9;
+            }
+            #main-content{
+                position: relative;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: -270px;
+            }
+            #img-frame{
+                height: 200px;
+                width: 200px;
+                padding: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #0008ff;                ;
+                border-radius: 50%;
+                margin: 0 auto;
+                box-shadow: 0px 9px 8px #c7c7c7;
+                transition: box-shadow 0.2s,padding 0.4s;
+
+            }
+            #img-frame:hover{
+                box-shadow: 0px 9px 8px #959595;
+                padding: 15px;
+            }
+            #img-frame > img{
+                height: 100%;
+            }
+            #centered-content{
+                text-align: center;
+                color: white;
+                font-size: 29;
+            }
+            #main-body{
+                position: relative;
+                top: -200;
+
+            }
+            #main-body > #main-header > h1 {
+                font-weight: 400;
+            }
+            #main-body > #main-header{
+                text-align: center;
+                font-size: 18px;
+                color: #6b6b6b;
+            }
+            #features,#Trophies{
+                direction: ltr;
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+            }
+            #feature,.Trophe{
+                margin: 0px 50px;
+                background-color: rgb(221,221,221);
+                width: 300px;
+                text-align: center;
+                color: #0008ff;
+            }
+            #Trophies-section{
+                margin-top: 150px;
+                background-color: rgb(235,235,235);
+                padding: 20px 0px;
+                direction: ltr;
+            }
+            .Trophe > img{
+                height: 160px;
+            }
+            #img-frame > img{
+                height: 100px;
+                border-radius: 100%;
+            }
+            .Trophe{
+                background: transparent;
+                display: flex;
+                border: 1px solid #585858;
+                margin: 0px 30px;
+                border-radius: 10px;
+                width: 30%;
+                font-size: 13;
+                box-shadow: 0px 2px 8px rgb(219,219,219);
+            }
+            .Trophe h2{
+                margin-left: 12px;
+                color: #0008ff;
+                font-weight: 500;
+            }
+            #Trophies-section > h1{
+                margin-left: 30px;
+                font-size: 40px;
+                font-weight: 500;
+            }
+            .Trophe button{
+                background-color: #0008ff;
+                color: white;
+                border: none;
+                height: 30px;
+                width: 90px;
+                box-shadow: 0px 2px 8px rgb(143,143,143);
+            }
+            #footer{
+                background-color: #0008ff;
+                width: 100%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+                color: white;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="main-header">
+            <div class="heder">
+                <img id="heder-img" src="heder5.jpg" >
+                <div id="cover"></div>
+                <div id="menu-header">
+                    <div id="menu">
+                        <a href="#" class="btn active">Home</a>
+                        <a href="#" class="btn">Club History</a>
+                        <a href="#" class="btn">Trophies</a>
+                        <a href="#" class="btn">Club News </a>
+                        <a href="#" class="btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div id="main-content">
+                <div id="centered-content">
+                    <h1>Al-Hilal Golden Era</h1>
+                    <div id="img-frame">
+                        <img src="hailal logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main-body">
+            <div id="main-header">
+                <h1>A Journey Through Triumph and Legacy</h1>
+            </div>
+            <div id="features">
+                <div id="feature">
+                    <h1>Championship Chronicles</h1>
+                </div>
+                <div id="feature">
+                    <h1>Legends</h1>
+                </div>
+                <div id="feature">
+                    <h1>Hall of Trophies</h1>
+                </div>
+            </div>
+            <div id="Trophies-section">
+                <h1 style="color: #0008ff;">The Championship Trilogy</h1>
+                <div id="Trophies">
+                    <div class="Trophe">
+                        <img src="leg 24.jpeg" alt="">
+                        <div>
+                            <h2 style="color: yellow; background-color: #00000034;"> Golden League</h2>
+                            <button>watch</button>
+                        </div>
+                    </div>
+                    <div class="Trophe">
+                        <img src="king cub 24.jpg" alt="">
+                        <div>
+                            <h2> King’s Cup</h2>
+                            <button>watch</button>
+                        </div>
+                    </div>
+                    <div class="Trophe">
+                        <img src="super 24.jpeg" alt="">
+                        <div>
+                            <h2> Super Cup</h2>
+                            <button>watch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <h5>Honoring the Legacy, Inspiring the Future – Al-Hilal’s journey is more than a story of championships; it’s a legacy of passion, resilience, and unity that will continue to inspire generations to come. Here’s to the past victories and the future triumphs of Al-Hilal.</h5>
+        </div>
+    </body>
+</html>
